@@ -13,37 +13,52 @@ h2, h1, a
 #wrapper
 {
 	background-color: rgba(2,2,2, .5);
-	width: 1200px;
+	width: 80%;
 	margin: 0px auto;
+	padding: 2em;
 }
-
-#top_headers, #survey, ul, h3
+#top-headers {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+}
+h1, h2{
+	text-align: center;
+}
+ ul, h3
 {
 	display: inline-block;
+}
+form {
+	margin: 2em auto;
+	text-align: center;
+	background-color: white;
+	padding: 1em;
 }
 
 li
 {
 	max-width: 350px;
 }
+#content {
+	display: flex;
+	justify-content: space-evenly;
+}
 
 #left_content
 {
-	width: 650px;
-	display: inline-block;
+	padding: 1em;
 	background-color: rgba(220, 0, 0, .6);
-	height: 520px;
-	vertical-align: top;
-	margin-left: 40px;
+	
+	
 }
 
 #right_content
 {
-	width: 450px;
-	display: inline-block;
+	padding: 2em;
 	background-color: rgba(0, 220, 0, .6);
-	height: 520px;
-	vertical-align: top;
+
 }
 
 .box
@@ -51,7 +66,7 @@ li
 	vertical-align: top;
 	display: inline-block;
 	width: 300px;
-	padding: 10px;
+	
 }
 
 img
