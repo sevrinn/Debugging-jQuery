@@ -8,4 +8,4 @@ The assignment was to debug the inline jQuery.
 
 Later on I came back, added some better styling and made sure all my jQuery code still worked. 
 
-![demo gif of fake pizza website](project.gif)
+![demo gif of fake pizza website](demo2.gif)
